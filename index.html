@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="js/jquery.vide.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.js" integrity="sha512-j7/1CJweOskkQiS5RD9W8zhEG9D9vpgByNGxPIqkO5KrXrwyDAroM9aQ9w8J7oRqwxGyz429hPVk/zR6IOMtSA==" crossorigin="anonymous" defer></script>
     <script src="js/main.js" defer></script>
 </head>
 <body>
@@ -36,13 +38,13 @@
             <p class="description">Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший</p>
             <div class="button-group">
                 <button class="button button-primary">Предзаказ фильма</button>
-                <button class="button button-default">
+                <a data-fancybox href="https://www.youtube.com/watch?v=NYH2sLid0Zc" class="button button-default">
                     <img src="img/play.svg" alt="icon: play" class="button-icon">
                     <span class="button-text">Смотреть трейлер</span>
-                </button>
+                </a>
             </div>
             <!-- /.button-group -->
         </section>
-    </div>  
+    </div>
 </body>
 </html>
